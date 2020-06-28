@@ -6,8 +6,7 @@
 height:50em;
 width:100%;
 display:flex;
-background-image:url("gif/main.png");
-
+background-image:url("gif/main.PNG");
 }
 body{
  margin:0px;
