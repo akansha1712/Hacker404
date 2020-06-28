@@ -15,12 +15,10 @@
 float:right;
 }
 .header{
-height:32em;
+height:auto;
 width: auto;
-display:flex;
 align:center;
 margin-left:10%;
-background-image:url("gif/Optimized-main.PNG");
 }
 body{
  margin:0px;
@@ -54,7 +52,6 @@ justify-content:center;
 color:white;
 }
 .second{
-background-image("gif/opsecond.png"/);
     width:65%;
     height:auto;
     margin-bottom:25px;
