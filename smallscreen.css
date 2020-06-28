@@ -15,10 +15,11 @@
 float:right;
 }
 .header{
-max-height:auto;
-  width: 200px;
+  height:auto;
+  width: auto;
   align:center;
-
+ margin-left:10%;
+ margin-right:10%;
 }
 .mainimage{
 max-height:400px;

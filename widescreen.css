@@ -19,6 +19,8 @@ height:auto;
 width: auto;
 align:center;
 margin-left:10%;
+margin-right:10%;
+
 }
 body{
  margin:0px;
@@ -197,9 +199,10 @@ ul{
   }
   .header{
   max-height:auto;
-  width: 400px;
+  width: auto;
   align:center;
-  margin-left:10%;
+  margin-left:20%;
+  padding:20%;
   }
 }
 }
