@@ -121,6 +121,7 @@ ul{
   width:100%;
   padding:1em;
   border:1px solid #c9e6ff;
+  resize: vertical;
 }
 
 .contact form button{
@@ -137,9 +138,6 @@ ul{
 
 }
 
-input[type=text], select, textarea {
-resize: vertical;
-}
 
 .alert{
   text-align: center;
