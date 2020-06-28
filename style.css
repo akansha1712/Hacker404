@@ -33,20 +33,20 @@ body{
 
 .container{
   width:60%;
-  margin-left:auto;
-  margin-right:auto;
+  height:auto;
   float:center;
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
 
 }
 .second{
 
-    padding:1em;
-    margin:1em;
-    width:50%;
-  height: 50%;
-  display:flex;
-  background-image:url("gif/second.png");
-  float:left;
+    width:65%;
+    margin-bottom:25px;
+
 }
 
 .flex-container {
@@ -60,7 +60,6 @@ body{
   width:20%;
   display:flex;
   background-image:url("gif/blue.gif");
-  float:left;
 }
 
 
@@ -79,6 +78,7 @@ ul{
 
 .brand{
   text-align: center;
+
 }
 
 .brand span{
@@ -93,28 +93,33 @@ ul{
   padding: 1em;
 }
 
-.company-info{
+/* .company-info{
 
   background:#c9e6ff;
   background-image:url("gif/tl.jpg");
   min-width:auto;
   height:auto;
-}
+}*/
 
-.company-info h3, .company-info ul{
+/*.company-info h3, .company-info ul{
   text-align: center;
   margin:0 0 1rem 0;
-}
+}*/
 
 .contact{
   background:#f9feff;
-}
+  background:black;
+  min-width:650px;
+
+ }
 
 /* FORM STYLES */
 .contact form{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap:20px;
+  color:white;
+
 }
 
 .contact form label{
@@ -161,17 +166,17 @@ ul{
   display:none;
 }
 
-/* LARGE SCREENS */
+/* LARGE SCREENS
 @media(min-width:700px){
   .wrapper{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+   /* grid-template-columns: 1fr 2fr;*/
   }
-
-  .wrapper > *{
+*/
+  /*.wrapper > *{
     padding:2em;
   }
-
+*/
   .company-info h3, .company-info ul, .brand{
     text-align: left;
   }
