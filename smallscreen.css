@@ -46,7 +46,6 @@ body{
 }
 .content{
 margin:25px;
-
 }
 .want{
 display:flex;
@@ -56,7 +55,7 @@ justify-content:center;
 color:white;
 }
 .second{
-    width:65%;
+    width:100%;
     height:auto;
     margin-bottom:25px;
 
@@ -150,7 +149,6 @@ ul{
 
 .contact form button, .contact form input, .contact form textarea{
   width:100%;
-
   border:1px solid #c9e6ff;
   resize: vertical;
 }
@@ -197,7 +195,7 @@ ul{
 
 h1 {
   /* Extra small devices (phones, less than 768px) */
-  font-size: 10px;
+  font-size: 13px;
 
   /* Small devices (tablets, 768px and up) */
   @media (min-width: 768px) {
@@ -216,7 +214,7 @@ h1 {
 }
 h2 {
   /* Extra small devices (phones, less than 768px) */
-  font-size: 10px;
+  font-size: 12px;
 
   /* Small devices (tablets, 768px and up) */
   @media (min-width: 768px) {
