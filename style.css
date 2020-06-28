@@ -110,6 +110,7 @@ ul{
 
 .contact form p{
   margin:0;
+   grid-column: 1 / 3;
 }
 
 .contact form .full{
@@ -133,6 +134,11 @@ ul{
   color:#fff;
   outline:0;
   transition: background-color 2s ease-out;
+
+}
+
+input[type=text], select, textarea {
+resize: vertical;
 }
 
 .alert{
