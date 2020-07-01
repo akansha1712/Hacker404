@@ -151,7 +151,7 @@ ul{
 .contact form button, .contact form input, .contact form textarea{
   width:100%;
   border:1px solid #c9e6ff;
-  resize: vertical;
+  resize: none;
 }
 
 .contact form button{
@@ -177,7 +177,15 @@ ul{
   margin-bottom:10px;
   display:none;
 }
+.messagealert{
 
+  text-align: center;
+  padding:10px;
+  background:red;
+  color:white;
+  margin-bottom:10px;
+  display:none;
+}
 /* LARGE SCREENS
 @media(min-width:700px){
   .wrapper{

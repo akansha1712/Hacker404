@@ -8,6 +8,7 @@ var config = {
    messagingSenderId: "544678758673",
    appId: "1:544678758673:web:988f519a0fb12483c724b0",
    measurementId: "G-6C4D8SPHMG"
+
 };
 
 firebase.initializeApp(config);
@@ -27,7 +28,15 @@ function submitForm(e){
   var email = getInputVal('email');
   var phone = getInputVal('phone');
   var message = getInputVal('message');
+  if(message.length>250){
+  console.log("message alert isbhsowing");
+  console.log(message.length);
+  document.querySelector('.messagealert').style.display = 'block';
+  }
+  else{
 
+      document.querySelector('.messagealert').style.display = 'none';
+console.log("cannot submit form ");
   // Save message
   saveMessage(name, email, phone, message);
 
@@ -41,6 +50,7 @@ function submitForm(e){
 
   // Clear form
   document.getElementById('contactForm').reset();
+ }
 }
 
 // Function to get get form values

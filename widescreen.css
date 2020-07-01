@@ -154,7 +154,7 @@ ul{
   width:100%;
   padding:1em;
   border:1px solid #c9e6ff;
-  resize: vertical;
+  resize: none;
 }
 
 .contact form button{
@@ -177,6 +177,15 @@ ul{
   padding:10px;
   background:#79c879;
   color:#fff;
+  margin-bottom:10px;
+  display:none;
+}
+.messagealert{
+
+  text-align: center;
+  padding:10px;
+  background:red;
+  color:white;
   margin-bottom:10px;
   display:none;
 }
