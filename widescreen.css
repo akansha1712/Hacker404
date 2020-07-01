@@ -20,6 +20,7 @@ width: auto;
 align:center;
 margin-left:10%;
 margin-right:10%;
+ box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
 
 }
 body{
@@ -43,6 +44,8 @@ body{
 
 }
 .content{
+font-family:Arial, Helvetica, sans-serif;
+color:white;
 margin:25px;
 
 }
@@ -57,6 +60,7 @@ color:white;
     width:65%;
     height:auto;
     margin-bottom:25px;
+
 
 }
 

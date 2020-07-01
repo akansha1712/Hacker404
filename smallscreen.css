@@ -44,6 +44,8 @@ body{
 
 }
 .content{
+font-family:'verdana';
+color:white;
 margin:25px;
 }
 .want{
